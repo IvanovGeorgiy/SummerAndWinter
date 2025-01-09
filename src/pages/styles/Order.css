@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.main{
+    font-size: 15px;
+    font-family: Cambria;
+}
+.game-name2{
+    /*flex: 0.3;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 20px;*/
+    display: flex;
+    height:10%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #386ce1, #60bffd, #5bc470, #e0d672);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.footer-screen1 {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+}
+.button-make-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.making-order{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/*.nav-link{*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+.link{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-screen2{
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.order-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.order-form div {
+    margin-bottom: 15px;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.order-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-form button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.order-form button:hover {
+    background-color: #0056b3;
+}

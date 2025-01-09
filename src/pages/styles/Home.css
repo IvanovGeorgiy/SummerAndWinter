@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    background-color: white;
+}
+.inf-right1{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+}
+.inf-right2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    font-size: 15px;
+    font-family: Cambria;
+}
+.game-inf{
+    font-size: 25px;
+    font-family: Cambria;
+}
+.info-text{
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.welcome {
+    text-align: center;
+    font-family: Cambria;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    align-content: space-around;
+    background-color: white;
+    height: 100%;
+}
+.summer-winter{
+    flex: 1;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+.header{
+    align-items: center;
+    background: linear-gradient(90deg, #386ce1, #60bffd, #5bc470, #e0d672);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.nav {
+    margin-top: 20px;
+}
+
+.nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: white;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.info-container1{
+    flex:0.4;
+}
+.info-container2{
+    flex:0.6;
+}
+.inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-block {
+    display: flex;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    background: linear-gradient(90deg, #386ce1, #60bffd, #5bc470, #e0d672);
+}
+
+.info-block button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.info-block button:hover {
+    background-color: #0056b3;
+}
+
+.footer-screen1 {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+}
+.button-make-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.making-order{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-screen2{
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.order-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.order-form div {
+    margin-bottom: 15px;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.order-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-form button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.order-form button:hover {
+    background-color: #0056b3;
+}
